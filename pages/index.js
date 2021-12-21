@@ -19,9 +19,9 @@ function Home(props) {
         <img src = {climateData.forecast.forecastday[0].day.condition.icon} /><span className='font-bold text-xl'>{climateData.forecast.forecastday[0].day.condition.text}</span>
         <p className='font-bold text-2xl mt-2'>Temperature</p>
         <ul className='list-disc ml-10'>
-          <li><p>Maximum: {climateData.forecast.forecastday[0].day.maxtemp_c}'C</p></li>
-          <li><p>Minimum: {climateData.forecast.forecastday[0].day.mintemp_c}'C</p></li>
-          <li><p>Average: {climateData.forecast.forecastday[0].day.avgtemp_c}'C</p></li>
+          <li><p>Maximum: {climateData.forecast.forecastday[0].day.maxtemp_c}&apos;C</p></li>
+          <li><p>Minimum: {climateData.forecast.forecastday[0].day.mintemp_c}&apos;C</p></li>
+          <li><p>Average: {climateData.forecast.forecastday[0].day.avgtemp_c}&apos;C</p></li>
         </ul>
         <p className='font-bold text-2xl mt-2'>Wind</p>
         <ul className='list-disc ml-10'>
